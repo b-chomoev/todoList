@@ -5,9 +5,9 @@ import './App.css';
 
 const App = () => {
     const [tasks, setTasks] = useState([
-        {textTask: 'Wash up', id: (new Date().getTime().toString())},
-        {textTask: 'Do some exercises', id: (new Date().getTime().toString())},
-        {textTask: 'Have breakfast', id: (new Date().getTime().toString())},
+        {textTask: 'Bring your bag', id: (new Date().getTime().toString())},
+        {textTask: 'Buy new phone', id: (new Date().getTime().toString())},
+        {textTask: 'Be a better person', id: (new Date().getTime().toString())},
     ]);
 
     const [input, setInput] = useState("");
